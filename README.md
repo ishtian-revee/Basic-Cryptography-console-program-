@@ -11,8 +11,6 @@ These are:
 * Show crypto-key
 * Input new crypto-key
 
----
-
 ## Initial Step
 
 Initially a secret key (crypto-key) is given which is:
@@ -27,8 +25,6 @@ second function firstly calculating the adjoint matrix from the crypto-key and
 finally calculating the inverse matrix by using that determinant.
 
 **[Note: Determinant can't be 0. If determinant is equal to 0 then there will be no inverse matrix.]**
-
----
 
 ## Encryption
 
@@ -50,8 +46,6 @@ the corresponding digits of each and every letters of the message as a m*n matri
 Finally, it will print an encrypted code or the secret code of that message. For this
 example the code is: `60 37 28 47 37 15`
 
----
-
 ## Decryption
 
 After choosing Decryption option the program at fist calls for an user input of the
@@ -68,15 +62,11 @@ the corresponding digits of each and every letters of the message as a m*n matri
 And finally, it will display the actual message that had been encrypted first. For
 this example we get the message: `IREVEE` [message will be in upper case]
 
----
-
 ## Show crypto-key
 
 After choosing the Show Crypto-key option the program will display the crypto-key
 that has been given as well as the inverse matrix which was also calculated in the
 beginning.
-
----
 
 ## Input new crypto-key
 
@@ -85,8 +75,6 @@ of the new crypto-key.
 
 **[Note: For this program user has to input total 9 digits because the crypto-key
 is itself a 3*3 matrix which can contain total 9 elements.]**
-
----
 
 ## Exit
 
